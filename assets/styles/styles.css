@@ -27,11 +27,15 @@ header {
 }
 
 #navbar_header {
-    background-color: #000;
+    color: #000;
     margin: 5px auto 0 auto;
     width: 100%;
     padding: 10px;
     text-align: center;
+    background: linear-gradient(45deg, 
+        #ef0078 33%, 
+        #fff 33%, #fff 66%,
+        #ef0078 66%);
 }
 
 .nav-link {
@@ -82,6 +86,12 @@ header {
     box-sizing: border-box;
 }
 
+code {
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #ef0078;
+}
+
 #footer {
     text-align: center;
 }
@@ -101,6 +111,7 @@ header {
         text-align: center;
         margin-top: 0;
         height: 20px;
+        padding: 10px 0 10px 0;
     }
     .nav-link {
         margin: auto;
